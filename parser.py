@@ -22,7 +22,7 @@ for n in products:
     Parfums.append({'Наименование': f'{Brand}  {Name}', 'Старая цена': Price_old, 'Новая цена': Price_new})
 
 for i in Parfums:
-    print(i) # Сделал для себя, что бы просмотреть содержимое словаря
+    print(i) # Сделал для себя, что бы просмотреть содержимое списка
 
 df = pd.DataFrame(Parfums)
 print(df) # Для себя, что бы посмотреть как выглядит таблица)
